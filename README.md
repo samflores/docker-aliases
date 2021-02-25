@@ -5,6 +5,14 @@ Consult [source file](docker-aliases.plugin.zsh) for more details.
 
 ## Installation
 
+### [zinit](https://github.com/zdharma/zinit)
+
+```zsh
+zinit load samflores/docker-aliases
+# or
+zinit light samflores/docker-aliases
+```
+
 ### [zplug](https://github.com/zplug/zplug)
 
 ```zsh

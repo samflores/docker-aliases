@@ -48,7 +48,7 @@ alias dcS='docker stop $* $(docker ps -q -f "status=running")'
 
 alias dcx='docker rm'
 alias dcxs='docker rm $* $(docker ps -q -f "status=exited")'
-alias dxC='docker rm $* $(docker ps -a -q)'
+alias dcX='docker rm $* $(docker ps -a -q)'
 
 ########################
 # Volumes - dv<action> #

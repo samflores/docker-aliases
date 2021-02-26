@@ -12,6 +12,9 @@
 #
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 
+# is Docker installed?
+[ -z "$(command -v docker)" ] && return 0
+
 ###########
 # General #
 ###########

@@ -29,7 +29,7 @@ alias dil='docker images'
 alias dibu='docker build'
 alias dix='docker rmi'
 alias diX='docker rmi $* $(docker images -a -q)'
-alias dixx='docker rmi $* $(docker images -q -f "dangling=true")'
+alias dixd='docker rmi $* $(docker images -q -f "dangling=true")'
 alias dih='docker history $*'
 
 ###########################
@@ -56,7 +56,7 @@ alias dcX='docker rm $* $(docker ps -a -q)'
 
 alias dvl='docker volume ls $*'
 alias dvX='docker volume rm $(docker volume ls -q)'
-alias dvxx='docker volume rm $(docker volume ls -q -f "dangling=true")'
+alias dvxd='docker volume rm $(docker volume ls -q -f "dangling=true")'
 
 ########################
 # Network - dn<action> #
